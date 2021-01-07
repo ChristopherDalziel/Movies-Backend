@@ -1,4 +1,7 @@
 package models
 
-class Movies {
-}
+data class Movies(
+    val ID: String,
+    val Title: String,
+    val Poster: String
+)
